@@ -69,7 +69,7 @@ button {
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+.task-block__input{
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -81,7 +81,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+.task-block__input:focus {
   color: #333;
 }
 
@@ -120,7 +120,7 @@ input[type="text"]:focus {
   font-size: 18px;
   width: 226px;
 }
-.task-block > .task {
+.task-block > .task-block__input {
   width: 226px;
 }
 .task-block > button.delete:hover {
@@ -142,11 +142,11 @@ button.delete img:hover {
 }
 
 /* Edit Task */
-.task-block input[type="text"] {
+.task-block .task-block__input{
   display: none;
 }
 
-.task-block.edit-mode > .task{
+.task-block.edit-mode > .task-block__input{
   display: inline-block;
   width: 224px;
 }
