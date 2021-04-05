@@ -111,7 +111,7 @@ button {
   vertical-align: middle;
 }
 
-.task-block > input[type="checkbox"] {
+.task-block > .task-block__chekbox {
   margin: 0 10px;
 }
 .task-block__text {
@@ -126,12 +126,12 @@ button {
 .task-block > button.delete:hover {
   color: #cf2323;
 }
-button.delete img {
+.button.delete .task-blok__button-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.button.delete .task-blok__button-img:hover {
   transform: rotateZ(0);
 }
 
