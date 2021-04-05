@@ -22,7 +22,7 @@ body {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main-wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.newtask__row-wrapper {
   display: flex;
 }
 ul {
@@ -90,10 +90,10 @@ input[type="text"]:focus {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+.newtask__input {
   width: 318px;
 }
-p > button:hover {
+.newtask__button:hover {
   color: #0fc57c;
 }
 
