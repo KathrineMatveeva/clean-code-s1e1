@@ -114,13 +114,13 @@ input[type="text"]:focus {
 .task-block > input[type="checkbox"] {
   margin: 0 10px;
 }
-.task-block > label {
+.task-block__text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.task-block > input[type="text"] {
+.task-block > .task {
   width: 226px;
 }
 .task-block > button.delete:hover {
@@ -146,7 +146,7 @@ button.delete img:hover {
   display: none;
 }
 
-.task-block.edit-mode input[type="text"] {
+.task-block.edit-mode > .task{
   display: inline-block;
   width: 224px;
 }
